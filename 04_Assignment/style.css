@@ -1,7 +1,56 @@
 
 h1 {
-	font-family: Helvetica, sans-serif;
-	color: #660066;
+	font-family: Helvetica;
+	color: #000099;
+		text-align: center;
+}
+i {
+	color: #CC0000;
+	size: 75%;
+}
+body {
+	background-color: #CCFFFF;
+}
+p {
+	margin-left: 70px;
+	color: #0000FF;
+}
+ul {
+	list-style-type: circle;
+	font-family: Times;
+	color: #CC3300;
+}
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+figcaption {
+	color: #FF00FF;
+	font-family: Times;
+}
+h4 {
+	font-family: Courier, serif;
+	color: #33CC33;
+}
+hr {
+	color: #660033;
+	background-color: #660033;
+	height: 3px;
+}
+a {
+	color: #6600FF;
+	font-family: ;
+}
+ol {
+	color: #00FFFF;
+	font-family:Arial, sans-serif;
+}
+h3 {
+	color: #003300;
+	font-family:Courier;
 	text-align: left;
-	font-size: 75px;
 }
