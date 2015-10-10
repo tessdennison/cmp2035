@@ -1,7 +1,4 @@
-* {
-	font-family: Arial, Verdana, sans-serif;
-	color: #000000;
-}
+
 h1 {
 	font-family: Helvetica;
 	color: #000099;
@@ -19,8 +16,5 @@ p {
 ul {
 	list-style-type: circle;
 	font-family: Didot;
-}
-b {
-	
 }
 
