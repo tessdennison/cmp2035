@@ -2851,10 +2851,6 @@ h1 {
 
 
 
-
-
-
-
 .custom-dropdown {
   position: relative;
   display: inline-block;
@@ -2883,7 +2879,7 @@ h1 {
   pointer-events: none;
 }
 
-.custom-dropdown::after { /*  Custom dropdown arrow */
+.custom-dropdown::after { 
   content: "\25BC";
   height: 1em;
   font-size: .625em;
@@ -2893,7 +2889,7 @@ h1 {
   margin-top: -.5em;
 }
 
-.custom-dropdown::before { /*  Custom dropdown arrow cover */
+.custom-dropdown::before { 
   width: 2em;
   right: 0;
   top: 0;
