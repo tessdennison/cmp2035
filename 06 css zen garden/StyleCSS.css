@@ -17,10 +17,10 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: black; 
-	background-image: url(fish1.png), url(surface.jpg), url(Ocean.jpg);
-	background-size: 2300px 2300px, 600px 1080px, 1500px 1500px;
+	background-image: url(fish1.png), url(fish2.png), url(surface.jpg), url(Ocean.jpg);
+	background-size: 2300px 2300px, 2300px 2300px, 600px 1080px, 1500px 1500px;
 	background-repeat: no-repeat;
-	background-position: -480px -320px, center, center;
+	background-position: -480px -320px, -100px -200px, center, center;
 	background-attachment:scroll, fixed, fixed;
 	margin: 0; 
 	padding: 0;
