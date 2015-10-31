@@ -37,7 +37,7 @@ h3 {
 	font: italic normal 3em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #12282C;
+	color: white;
 	}
 a:link { 
 	font-weight: bold; 
@@ -116,7 +116,7 @@ header {
 	}
 
 .preamble {
-	position: -1000px -1000px; 
+	position: 100px 100px; 
 	width:400px;
 	}
 .supporting {	
