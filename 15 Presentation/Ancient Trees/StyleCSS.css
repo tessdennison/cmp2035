@@ -1,0 +1,315 @@
+nav {
+    width: 100%;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: black;
+    }
+
+nav ul li a {
+    color: black;
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: white;
+        font-family: Helvetica;
+        text-decoration: none;
+    }
+
+
+
+#number {
+	position: absolute;
+	right: 470px;
+    top: 150px;
+}
+
+#logo {
+    position: absolute;
+    right: 500px;
+    top: 0px;
+}
+
+#logo img {
+    width: 25%;
+}
+
+#bg {
+position:fixed;
+top:0;
+left:-50%;
+width:200%;
+height:75%;
+}
+#bg img {
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom:-500px;
+margin:auto;
+min-width:100%;
+min-height:100%;
+
+}
+
+body {
+	font-family: serif;  
+    }
+
+
+
+
+
+
+    /*Donate Button*/
+     
+        
+
+    
+     #donate {
+    	background-color:black;
+    	margin-right: 10px;
+    	opacity: .4;
+        font-family: Helvetica white;
+    }
+   
+     #donate:hover {
+    	background-color: black;
+    }
+
+
+
+/* Submenu */
+nav ul li.parent ul.child {
+    display: none; 
+}
+nav ul li.parent:hover ul.child {
+    display: block; 
+
+    position: absolute;
+    top: 60px;
+    background: gray;
+}
+
+nav ul li.parent ul.child li {
+    width: 5em;
+    padding: 0;
+}
+nav ul li.parent ul.child li:hover {
+    background: gray;
+    
+
+}
+nav ul li.parent ul.child li a {
+  display: block;
+
+}
+
+
+/*styling 'Of' for homepage */
+.of {
+	font-family: Times;
+	font-size: 25px;
+	position: relative; 
+	left: 620px;
+	top: 200px;
+}
+.stat {
+	font-family: Times;
+	font-size: 25px;
+	position: relative; 
+	left: 25px;
+	top: 200px;
+	text-align: center;
+}
+
+.action {
+	background: black;
+	opacity: .6;
+	width: 9em;
+	height: 3em;
+	position: relative; 
+	left: 480px;
+	top: 200px;
+	text-align: center;
+
+
+	
+}
+.action a{
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 20px;
+padding:15px;
+position: relative;
+top:10px;
+}
+
+.action:hover {
+background-color: black;
+opacity: .8;
+}
+
+
+/*Images in hexagon
+
+
+div.img1 {
+    margin: 5px;
+    float: left;
+    
+}
+
+div.img1:hover {
+    
+}
+
+div.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+div.img2 {
+    margin: 5px;
+}
+
+div.img2:hover {
+    
+}
+
+div.img2 img {
+    width: 100%;
+    height: auto;
+    float: center;
+}
+
+div.img3 {
+    margin: 5px;
+}
+
+div.img3:hover {
+    
+}
+
+div.img3 img {
+    width: 100%;
+    height: auto;
+   float: right;
+}
+
+*/
+
+
+.column {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.column:last-child {
+    padding-bottom: 60px;
+}
+
+.column div {
+    position: relative;
+    top: 200px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 145px;
+    padding: 0;
+}
+.column div:first-child {
+    margin-left: 10;
+}
+
+
+figure {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+
+.column figure:hover img {
+    opacity: .7;
+}
+
+
+.bottomcolumn {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.bottomcolumn:last-child {
+    padding-bottom: 60px;
+}
+
+.bottomcolumn div {
+    position: absolute;
+    top: 450px;
+    left: 170px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.bottomcolumn div:first-child {
+    margin-left: 10;
+}
+
+
+
+.bottomcolumn2 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.bottomcolumn2:last-child {
+    padding-bottom: 60px;
+}
+
+.bottomcolumn2 div {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.bottomcolumn2 div:first-child {
+    margin-left: 10;
+}
+
+
+figure {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+
+
+
+
+
