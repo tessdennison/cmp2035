@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ancient Trees</title>
+
+	<link rel="stylesheet" media="screen" type="CSS" href="StyleCSS.css"> 
+</head>
+<body>
+
+	 <div id="logo">
+        <img src="logo.png">
+    </div>
+	
+
+<div id="bg" >
+<img src="DonateTree.jpg" id="back1" alt="" /> 
+
+</div> 
+
+<nav>
+    <ul>
+        <li class="donate"><a href="Donation.html">Donate</a></li>
+      	<li><a href="Contact.html">Contact</a></li>
+        <li><a href="Get_Involved.html">Get Involved</a></li>
+        <li class="parent"><a href="About.html">About</a>
+            <ul class="child">
+                <li><a href="#">Buzz</a></li>
+                <li><a href="Founders.html">Founders</a></li>
+                <li><a href="#">Our Mission</a></li>
+            </ul>
+        </li>
+  
+    </ul>
+</nav>
+
+
+
+<div class="donation">
+	<h1> 
+		Plant A Tree
+	</h1>
+
+	<h3>
+		100% funds Ancient Tree Initiatives 
+	</h3>
+	<form>
+  First name:<br>
+  <input class="name" type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input class="name" type="text" name="lastname">
+  <br> <br>
+  <input class="dollar" type="text" name="amount" placeholder="$40.00">
+  <br><br>
+</form>
+
+<form action="" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_live_BY2Dn0YGYpmO4qtZ9RnRMYgT"
+    data-amount="2000"
+    data-name="Demo Site"
+    data-description="2 widgets ($20.00)"
+    data-image="/128x128.png"
+    data-locale="auto">
+  </script>
+</form>
+
+</div>
+
+
+
+
+
+
+<!--
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="tess.dennison.tufts@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Ancient Trees">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+-->
