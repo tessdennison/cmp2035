@@ -36,6 +36,24 @@ position: fixed;
 opacity: .85;
 }
 
+#missionpic {
+
+    background-image: url(Homepage.jpeg);
+
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    width: 100%;
+}
+#missionpic img{
+width: 100%;
+position: fixed;
+opacity: .65;
+}
+
 #bgfounder {
 
     background-image: url(Homepage.jpeg);
@@ -143,8 +161,7 @@ nav ul li.parent ul.child {
     }
 nav ul li.parent:hover ul.child {
     display: block; 
-position: relative;
-    
+    position: relative;
     top: 60px;
     background: gray;
 }
@@ -156,9 +173,6 @@ nav ul li.parent ul.child li {
 }
 nav ul li.parent ul.child li:hover {
     background: gray;
-    
-    
-
 }
 nav ul li.parent ul.child li a {
   display: block;
@@ -448,7 +462,7 @@ display: block;
     position: fixed;
     float: left;
     top: 300px;
-    left: 350px;
+    left: 240px;
     background: rgba(0,0,0,.5);
     padding: 20px 45px 20px 45px;
     text-align: center;
@@ -678,6 +692,126 @@ opacity: .8;
     width: 400px;
 }
 
+
+
+
+
+.buzz1 div {
+    position: fixed;
+    top: 200px;
+    float: left;
+    left: 210px;
+    padding: 0;
+}
+
+.buzz1 img {
+    width: 200px;
+}
+
+.buzz2 div {
+    float: left;
+    left: 460px;
+}
+.buzz3 div {
+
+    float: left;
+    left: 700px;
+}
+
+
+.buzz2 figure:hover img {
+    opacity: .7;
+}
+.buzz1 figure:hover img {
+    opacity: .7;
+}
+
+
+
+.buzz4 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.buzz4:last-child {
+    padding-bottom: 60px;
+}
+
+.buzz4 div {
+    position: fixed;
+    top: 400px;
+    left: 230px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.buzz4 div:first-child {
+    margin-left: 10;
+}
+
+
+
+.buzz5 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.buzz5:last-child {
+    padding-bottom: 60px;
+}
+
+.buzz5 div {
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.buzz5 div:first-child {
+    margin-left: 10;
+}
+
+.buzz5 figure:hover img {
+    opacity: .8;
+}
+.buzz4 figure:hover img {
+    opacity: .8;
+}
+
+
+figure {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+
+
+.why {
+    position: fixed;
+    float: left;
+    top: 190px;
+    left:350px;
+    font-family: serif;
+    font-size: 3em;
+    color: black;
+}
+
+.mission {
+    position: fixed;
+    float: left;
+    top: 250px;
+    left:250px;
+    font-family: serif;
+    font-size: 1.5em;
+    color: black;
+    width: 650px;
+}
 
 
 
